@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.img-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .img-container img {
+  padding: 0 0 15px 0;
+  }
+}
